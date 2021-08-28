@@ -2,9 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>groupId</groupId>
+    <distributionManagement>
+        <repository>
+            <id>nicasav</id>
+            <name>GitHub nicasav Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/nicasav/sum</url>
+        </repository>
+    </distributionManagement>
+    <groupId>nicasav</groupId>
     <artifactId>sum</artifactId>
     <version>1.0-SNAPSHOT</version>
 
